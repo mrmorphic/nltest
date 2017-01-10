@@ -13,12 +13,18 @@
     <script src="node_modules/systemjs/dist/system.src.js"></script>
 
     <script src="systemjs.config.js"></script>
+
+    <link rel="stylesheet" href="node_modules/material-design-lite/material.min.css">
+    <script src="node_modules/material-design-lite/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="node_modules/ng2-dnd/bundles/style.css">
+    
     <script>
       System.import('app').catch(function(err){ console.error(err); });
     </script>
   </head>
 
   <body>
-    <my-app>Loading AppComponent content here ...</my-app>
+    <layout-editor>Loading AppComponent content here ...</layout-editor>
   </body>
 </html>
